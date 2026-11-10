@@ -60,6 +60,7 @@ Trae AutoCheckin · Trae 每日自动签到（抗 9074 限流版）
   TRAE_UID[_N]             账号标识（可选，仅用于日志）
   TRAE_ONLY                只跑指定账号：序号 / uid / 名字（可选）
   CLAIM_TRIES              单轮 claim 重试次数（可选，默认 1，调大反而更容易被限）
+  TRAE_USE_PROXY           设 1 走系统代理（HTTPS_PROXY），默认强制直连
   TRAE_TOKEN_CACHE         token 缓存文件路径（可选，默认 /ql/data/config/ 或脚本同目录）
   TRAE_ACCOUNT_DIR         账号 JSON 所在目录（可选，用于回写轮换后的 refreshToken）
   QYWX_TOKEN               企业微信群机器人 Webhook key（可选，也兼容 WECHAT_WEBHOOK）
@@ -462,8 +463,17 @@ def log_head(title):
     print('└' + '─' * BOX + '┘')
 
 
-# ══════════════════ HTTP（强制直连，不走系统代理） ══════════════════
-_opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+# ══════════════════ HTTP（默认直连，可显式开启代理） ══════════════════
+def _make_opener():
+    """默认强制直连（与桌面端一致）；设 TRAE_USE_PROXY=1 时改走系统代理。
+    显式设 TRAE_USE_PROXY=0 可强制直连（优先级最高）。"""
+    flag = os.getenv('TRAE_USE_PROXY', '').strip().lower()
+    if flag in ('1', 'true', 'yes', 'on'):
+        return urllib.request.build_opener()      # 读取 HTTPS_PROXY/HTTP_PROXY
+    return urllib.request.build_opener(urllib.request.ProxyHandler({}))
+
+
+_opener = _make_opener()
 
 
 def _post(url, headers, body='{}', timeout=30):

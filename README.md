@@ -276,6 +276,7 @@ python trae_credit_monitor.py   # 查积分
 | `TRAE_PEAK_HOURS` | ➖ | 早窗小时，默认 **0**；支持 `0` / `0,23` / `0-1`，早窗自动一轮全签 |
 | `TRAE_PEAK_COOLDOWN_MIN` | ➖ | 早窗内冷却分钟数，默认 **12**（好让下轮还在窗口里补签） |
 | `TRAE_CIRCUIT` | ➖ | 设 `1` 恢复旧熔断：一个账号 9074 就全体收工（默认关） |
+| `TRAE_USE_PROXY` | ➖ | 设 `1` 走系统代理（`HTTPS_PROXY`/`HTTP_PROXY`）；默认强制直连，与桌面端一致 |
 | `TRAE_ROTATE` | ➖ | 9074 后在真实设备号之间切换（不再生成假号），默认开；设 `0` 关闭 |
 | `TRAE_VERIFY_CLAIM` | ➖ | 领取后同设备号回查确认，默认开；设 `0` 关闭 |
 | `TRAE_DEVICE_BRAND` | ➖ | 设备品牌请求头（可选，默认不发，与桌面端 `device_model` 对应） |
