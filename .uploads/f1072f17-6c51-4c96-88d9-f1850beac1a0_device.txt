@@ -1,0 +1,11 @@
+================================================================
+设备密钥（来源: C:\Users\Administrator\AppData\Roaming\Trae CN\User\globalStorage\storage.json）
+================================================================
+TRAE_DEVICE_ID=2649136946495146
+TRAE_MACHINE_ID=8fc5cc9ebf1e590f97cb89f80c4667a7b94fa88806b197dc62301867fc9752f9
+
+TRAE_DEVICE_KEY_PEM=-----BEGIN PRIVATE KEY-----\nMIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgYFe4WeIil0QdSw/h\n8cD3ZAKRymr+6FhLRbiA1trUETahRANCAAS5Qrs0qHmZ/UUfHYg1yEyHT+fwrdhL\nFLHAOmcwskbqlxRHPl1/D7v0zocZ2Ir8MPTy8UbZJcMue8UdwpWNJtaB\n-----END PRIVATE KEY-----
+
+TRAE_DEVICE_PUB_PEM=-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuUK7NKh5mf1FHx2INchMh0/n8K3Y\nSxSxwDpnMLJG6pcURz5dfw+79M6HGdiK/DD08vFG2SXDLnvFHcKVjSbWgQ==\n-----END PUBLIC KEY-----
+================================================================
+提示：PEM 里的换行已写成 \n，直接整行复制即可（脚本会自动还原）。

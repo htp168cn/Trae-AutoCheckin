@@ -1,0 +1,8 @@
+================================================================
+TRAE_ACCOUNTS  (共 1 个账号，整行复制到环境变量)
+================================================================
+  1) 陈老C  UID 2557912385851209
+----------------------------------------------------------------
+[{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiMjU1NzkxMjM4NTg1MTIwOSIsInNvdXJjZSI6InJlZnJlc2hfdG9rZW4iLCJzb3VyY2VfaWQiOiJ4STRBSUJSdWx5dDRFRU9ZX0RaMjdfbzlpejJUQ3BMcmVwbklKOThpaGI0PS4xOGU1YjE2OGE2ODRiZTYzIiwidGVuYW50X2lkIjoiN28yZDg5NHA3ZHIwbzQiLCJ0eXBlIjoidXNlciJ9LCJleHAiOjE3OTUyNDQ2ODksImlhdCI6MTc5NDAzNTA4OX0.D7kKMhx_LgrRPBsa8lzE6-q8jRKIWJoSO6ugrErS0EvNxhbT_tEJWEtrqQ2uHRtkZVemn1IDSA9Tb7IxxizC2PaYZ9ugp-MB7xPldlfBbEyHJZQeRKVjX-NjO3-pJ8QNdEG1dGIaidzy93yKCCw6BN_eKbiQVS50peIomW0fMVspnmJm8ClHGb0HSjew8eSu3KYCz5mIK2eCteOic5EaKNRW2Tg7F1sUidBvWY7BJQSXJ2CVOdkq-zky3p1hQC6--uOwx17hrT5dMA45wKorjqcExeDLBqdQLfmbi1OVZOBA2pmTDw_WSUZnZrsXShdR7zDx7GuKgk4EELs_gL05B6KHImSOCv5Ed0E1-m-iwJ6XhA_NUhrdACpXfUKDkPzdrmq8C3feYb4wghM9JCZd1vMZRtJvdMDrBMWnortRm5W4dkh7n8vhGocnnCB0LDmlol5monNxC0YVnnoNuudqO15CmNjDqNU9p4dONDgYbOIUVyL3lZUhvYfX3SYraRiiZriHpiiNig9Y221Y9RGnQh8H3xP1nzCfmyldTybFRoGwHWOo8wfkgH8yGYwK4BqHW8m_tbSmBHAC_z9mB8VmbpCtj207mEVgNFYSELpcrsDMT7AQDknJtSEGYcNzD76KWm4P8AOyj43HkfuC_kPP9BkVBTpCFAuj9-dumOdaJm4","refreshToken":"xI4AIBRulyt4EEOY_DZ27_o9iz2TCpLrepnIJ98ihb4=.18e5b168a684be63","uid":"2557912385851209","name":"陈老C","realDeviceId":"2649136946495146"}]
+================================================================
+提示：换行会被 JSON 破坏，请整行复制（不要手动折行）。
